@@ -35,5 +35,3 @@ To-do list:
 - Be sure to have Postgre SQL Database and configure the environment variables to reflect your personal credentials for the database. 
 - Be sure to set up the database with the "DB Table SQL" file
 - Make sure you use port 9000
-
-Full-Stack-Banking-Project/P0/PZero/src/main/resources/public/Images/WebBankingImage.png
