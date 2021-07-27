@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE BANK Portal</title>
+    <link rel="stylesheet" href="/Style sheets/CustomerPortal.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="colorLayer">
+        <!-- Page header -->
+        <div class="page-header">
+            <nav class="navbar navbar-light nav-content">
+                <div class="container-fluid">
+
+                    <button type="button" class="btn btn-secondary" id="home-button">THE BANK</button>
+
+                    <div class="right-buttons-header">
+                        <div class="divider-vertical"></div>
+
+                        <button type="button" class="btn signoff-button" id="header-signoff-button">Sign Off</button>
+                        <div class="divider-vertical"></div>
+                        
+                        <div class="dropdown useraccount-button">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="/Images/account-login-icon.png" class="account-image">
+                                Welcome, <span id="header_firstName">FirstName</span>
+                            </a>
+
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenuLink">
+                                <div class="dropdown-entry"><li><h7 id="header_name">FirstName LastName</h7></li></div>
+                                <div class="dropdown-entry"><li><h7 id="header_username">Username</h7></li></div>
+                                <div class="dropdown-entry"><li><h7 id="header_id">User ID# 1234</h7></li></div>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>
+
+        <div class="page-body">
+            <div class="account-panel">
+                <!-- account body to append accounts to -->
+                <div class="account-container" id="accountBody">
+                        <div class="account-summary-container">
+                            <div class="account-summary-text account-summary-item"><h2>Account Summary</h2></div>
+                            <div class="account-transfer account-summary-item"><button id="transferButton" class="btn btn-secondary">Transfer Money</button></div>
+                            <div class="account-summary-button account-summary-item"><button id="requestAccount" class="btn btn-secondary">Request a new account!</button></div>
+                        </div>                        
+                </div>
+
+            </div>
+
+            <div class="side-bar">
+                <div class="sidebar-header">
+                    <h4 id="portal-welcome">Welcome, <span class="wholeName">FirstName LastName</span></h4>
+                    <p>Your last sign on was December 4, 2020</p>
+                    <button type="button" class="btn btn-secondary" class="signoff-button" id="logoutBtn">Sign Off</button>
+                </div>
+
+                <div class="divider-horizontal"></div>
+
+                <div class="sidebar-body">
+                    <h4>Meet with a banker</h4>
+                    <img class="sidebar-image" src="/Images/calendar-icon.png">
+                    <p>Make an appointment online at your convienience</p>
+                </div>
+                    
+                <div class="divider-horizontal"></div>
+
+                <div class="sidebar-lower">
+                    <h4>Access the full site</h4>
+                    <div class="d-grid gap-2">
+                        <!-- Default dropend button -->
+                        <div class="btn-group dropend">
+                            <button type="button" id="onlinebanking-button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            THE BANK Online
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="page-footer">
+            <div><h6>THE BANK</h6></div>
+        </div>
+
+        <script src="/Scripts/CustomerPortal.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

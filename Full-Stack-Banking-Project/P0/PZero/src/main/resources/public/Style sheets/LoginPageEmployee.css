@@ -1,0 +1,78 @@
+body{
+    background-image: url('/Images/bkgd.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorLayer{
+    background-color: rgba(107, 107, 107, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.login-container{
+    width: 23%;
+    height: 100%;
+    background-color:rgb(221, 221, 221);
+    display: flex; 
+    justify-content:center;
+    padding: 30px;
+    border-radius: 15px;  /* rounder borders */
+    align-items:center;
+    box-shadow: 12px 1px 12px 2px rgba(68, 68, 68, 0.4);
+    min-width: 400px;
+}
+
+div.input-group {
+    display: block;
+    height: 300px;
+    position:absolute;
+    top: 25%;
+}
+
+#errorMessage {
+    display:none;
+    text-align: center; 
+    color:rgb(139, 48, 48);
+}
+
+a:link {
+    color:white;
+}
+
+h3 {
+    text-align: center;
+}
+
+button{
+    width:100%;
+}
+
+.containerItem{
+    width: 370px;
+    padding: 3%;
+}
+
+.login-body {
+    display: flex;
+    justify-content:center;
+    height: 350px;
+}
+
+.login-footer{
+    display: flex;
+    justify-content:center;
+}
+
+.footer-child {
+    padding: 1%;
+}
+
+a:visited{
+    color: white;
+}

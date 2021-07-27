@@ -1,0 +1,40 @@
+
+
+---- USER TABLE ------
+
+create table user_table(
+	user_id serial primary key, 
+	first_name varchar(30) not null,
+	last_name varchar(30) not null,
+	email varchar(40) not null,
+	user_type varchar(30) not null,
+	account_username varchar(30) not null unique,
+	account_password varchar(30) not null,
+	user_approved boolean not null
+);
+insert into user_table values (0, 'DummyFirstName', 'DummyLastName', 'dummyAccount@email.com', 'Employee', 'admin', 'adminPassword', true);
+
+
+---- ACCOUNT TABLE ----
+
+create table account_table(
+	account_id serial primary key,
+	account_balance decimal not null,	
+	account_name varchar(30),			
+	account_approved boolean not null
+);
+
+
+---- JUNCTION TABLE ----
+
+create table account_to_user(
+	user_id int references user_table(user_id),
+	account_id int references account_table(account_id)
+);
+
+---- LOG TABLE ----
+
+create table bank_log(
+	logID serial primary key,
+	message varchar(60) not null
+);

@@ -1,0 +1,88 @@
+body{
+    height: 100%;
+    background-image: url('/Images/bkgd.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorLayer{
+    background-color: rgba(187, 203, 209, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.apple{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.header-container{
+    width: 50%;
+    border-radius: 15px;  /* rounder borders */
+    border-bottom: 1px solid grey;
+    background-color:rgb(245, 234, 234);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+h3{
+    align-self: center;
+}
+
+.login-body {
+    display: flex;
+    justify-content:center;
+    height: 100%;
+}
+
+.login-container{
+    width: 30%;
+    height: 100%;
+    background-color:rgb(226, 226, 226);
+    display: flex; 
+    justify-content:center;
+    padding: 30px;
+    border-radius: 15px;  /* rounder borders */
+    align-items:center;
+    box-shadow: 12px 1px 12px 2px rgba(68, 68, 68, 0.4);
+    min-width: 500px;
+    min-height: 525px;
+}
+
+div.input-group {
+    display: block;
+    height: 60%;
+    position:absolute;
+    top: 10%;
+}
+
+a:link {
+    color:white;
+}
+
+.containerItem{
+    width: 450px;
+    padding: 3%;
+}
+
+.signup-button{
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-footer{
+    display: flex;
+    justify-content:center;
+}
+
+.footer-child {
+    padding: 1%;
+}

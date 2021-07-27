@@ -1,0 +1,157 @@
+body{
+    height: 100%;
+    background-image: url('/Images/bkgd.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorLayer{
+    background-color: rgba(219, 234, 240, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* BELOW -> for page header */
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+.account-image{
+    width: 40px;
+}
+
+.useraccount-button{
+    background-color:transparent;
+    width: 45%;
+}
+
+.header-signoff-button{
+    background-color: transparent;
+}
+
+.dropdown-entry{
+    padding: 3%;
+}
+
+.right-buttons-header{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.divider-vertical{
+    border-right: 3px solid rgb(119, 119, 119);
+    margin: 3%;
+}
+
+.bg-light, .navbar-light {
+    background-color: rgb(159, 176, 182) !important;
+}
+
+/* ABOVE -> for page header */
+
+.page-header {
+    background-color: firebrick;
+}
+
+.page-body {
+    display: flex; 
+    justify-content:center;
+}
+
+.form-container{
+    background-color: rgb(196, 204, 204);
+    box-shadow: 12px 1px 12px 2px rgba(68, 68, 68, 0.4);
+    border-radius: 15px;  /* rounder borders */
+    display: block;
+    justify-content: space-between;
+}
+
+.left-side{
+    background-color: rgb(226, 226, 226);
+    float: left;
+    width: 60%;
+    border-radius: 15px;  /* rounder borders */
+    padding: 2%;
+} 
+
+.right-side{
+    background-color: rgb(189, 184, 184);
+    width: 35%;
+    height: 100%;
+    border-radius: 15px;  /* rounder borders */
+    float: right;
+    padding: 2%;
+}
+
+.right-side-items{
+    padding: 5%;
+    width: 100%;
+    height: 80%;
+}
+
+.right-item{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content: center;
+}
+
+.right-side-content{
+    width: 60%;
+    height: 50%;
+}
+
+#adding-account-id{
+    width: 80% !important;
+}
+
+.form-inputs {
+    padding: 2%;
+    width: 80%;
+    margin: 1%;
+}
+
+.form-item {
+    padding: 1%;
+    padding-bottom: 4%;
+}
+
+.form-button {
+    float: right;
+    width: 20%;
+    margin-right: 5%;
+}
+
+#add-transer-account{
+    float: right;
+}
+
+#confirm-button{
+    color: white;
+    background-color: rgb(88, 189, 189);
+    border-color: rgb(119, 214, 214);
+}
+
+.money-input {
+    width: 35%;
+}
+
+/* -------- FOOTER ---------- */
+
+.page-footer{
+    background-color:rgb(124, 104, 115);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.divider-horizontal{
+    border-top: 2px solid rgb(119, 119, 119);
+    margin: 2%;
+}

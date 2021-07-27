@@ -1,0 +1,121 @@
+body{
+    height: 100%;
+    background-image: url('/Images/bkgd.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.colorLayer{
+    background-color: rgba(219, 234, 240, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* BELOW -> for page header */
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+.account-image{
+    width: 40px;
+}
+
+.useraccount-button{
+    background-color:transparent;
+    width: 45%;
+}
+
+.header-signoff-button{
+    background-color: transparent;
+}
+
+.dropdown-entry{
+    padding: 3%;
+}
+
+.right-buttons-header{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.divider-vertical{
+    border-right: 3px solid rgb(119, 119, 119);
+    margin: 3%;
+}
+
+.bg-light, .navbar-light {
+    background-color: rgb(159, 176, 182) !important;
+}
+
+/* ABOVE -> for page header */
+
+.page-body {
+    display: flex; 
+    justify-content:center;
+    padding: 4%;
+}
+
+.form-container{
+    background-color: rgb(194, 212, 194);
+    box-shadow: 12px 1px 12px 2px rgba(68, 68, 68, 0.4);
+    border-radius: 15px;  /* rounder borders */
+    width: 45%;
+    padding: 2%;
+}
+
+.inner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-inputs {
+    padding: 2%;
+    width: 80%;
+    margin: 1%;
+}
+
+.form-item {
+    padding: 1%;
+    padding-bottom: 4%;
+}
+
+.form-button {
+    float: right;
+    width: 20%;
+    margin-right: 5%;
+}
+
+#add-transer-account{
+    float: right;
+}
+
+#confirm-button{
+    color: white;
+    background-color: rgb(88, 189, 189);
+    border-color: rgb(119, 214, 214);
+}
+
+.money-input {
+    width: 35%;
+}
+
+/* -------- FOOTER ---------- */
+
+.page-footer{
+    background-color: rgb(124, 104, 115);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.divider-horizontal{
+    border-top: 2px solid rgb(180, 180, 180);
+    margin: 2%;
+}
